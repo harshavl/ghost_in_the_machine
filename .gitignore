@@ -1,0 +1,21 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# Generated/processed files
+data/processed/
+docs/posteriors.png
+docs/executive_summary.txt
+docs/executive_summary.pdf  # If generated
+
+# Large raw data (optional, if sensitive/large)
+data/raw/IPL_Bowler_Detailed_Data.xls
+
+# Other temp files
+*.log
+*.tmp
